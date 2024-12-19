@@ -5,11 +5,13 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": ["nodejs", "express", "mongodb", "api"],
   "author": "akash kumar shukla",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
@@ -18,5 +20,9 @@
     "mongoose": "^8.9.2",
     "morgan": "^1.10.0",
     "nodemon": "^3.1.9"
-  }
+  },
+  "engines": {
+ "node": "8.x",
+ "npm": ">=6.0.0"
+ }
 }
