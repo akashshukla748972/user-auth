@@ -1,0 +1,22 @@
+{
+  "name": "user-auth",
+  "version": "1.0.0",
+  "description": "this is a user authentication api using express mongodb node",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "akash kumar shukla",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "mongoose": "^8.9.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9"
+  }
+}
