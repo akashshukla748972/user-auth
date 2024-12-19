@@ -25,6 +25,13 @@ app.use(morgan("combined"));
 
 // routes
 app.use("/api/users/", userRouter);
+app.use("/", (req, res) => {
+  res.status(200).json({
+    message: "Welcome to our site",
+    success: true,
+    error: false,
+  });
+});
 
 const PORT = process.env.PORT || 3000;
 
